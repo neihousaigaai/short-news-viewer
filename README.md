@@ -6,11 +6,15 @@ A small news viewer and a separated news page
 
 on Edge, Windows 10:
 
+- `index.html`:
+
 ![index.html](preview/index_preview.png)
+
+- `news.html`:
 
 ![news.html](preview/news_preview.png)
 
-Online demo [here](https://neihousaigaai.github.io/short-news-viewer/index.html)
+~~Online demo [here](https://neihousaigaai.github.io/short-news-viewer/index.html).~~
 
 ## Installation
 
