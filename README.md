@@ -20,11 +20,11 @@ on Edge, Windows 10:
 
 A small HTML snippet, you can copy-paste, or edit the code easily.
 
-**Note**: When you open `index.html` or `news.html` on local browser, the directory looks like 
+**Note**: When you want to open `index.html` or `news.html` on local browser with the directory looks like 
 ```
 file:///your/directory/here/index.html
 ```
-, **don't use any Chromium-based browsers**.
+, **don't open in any Chromium-based browsers**.
 
 ## Note
 
