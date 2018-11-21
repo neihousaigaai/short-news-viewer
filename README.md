@@ -2,6 +2,8 @@
 
 A small news viewer and a separated news page
 
+Online demo [here](https://neihousaigaai.github.io/short-news-viewer/index.html).
+
 ## Preview
 
 on Edge, Windows 10:
@@ -13,8 +15,6 @@ on Edge, Windows 10:
 - `news.html`:
 
 ![news.html](preview/news_preview.png)
-
-~~Online demo [here](https://neihousaigaai.github.io/short-news-viewer/index.html).~~
 
 ## Installation
 
