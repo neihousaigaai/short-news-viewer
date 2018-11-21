@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link media="screen" rel="stylesheet" href="news.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+        function onLoad() {
+            $.getJSON('news.json', function(obj) {
+                var newsDiv = document.getElementById("news_pad_content");
+                for (var i = 0; i < Math.min(3, obj.length); i++) {
+                    newsDiv.innerHTML += "<p><span class=\"news_txt\">" + obj[i].txt + "</span><br><span class=\"news_date\">" + obj[i].date + "</span></p>";
+                }
+                newsDiv.innerHTML += "<a href=\"news.html\">Show all news...</a>";
+            });
+        }
+    </script>
+    <script src="load_news.js"></script>
+</head>
+<body onload="onLoad();">
+    <div id="news_pad">
+        <h3>Recently updated</h3>
+        <div id="news_pad_content"></div>
+    </div>
+    <!-- define other elements here --->
+</body>
+</html>

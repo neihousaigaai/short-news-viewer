@@ -1,0 +1,18 @@
+[
+    {
+        "date": "21/11/2018 09:23 UTC",
+        "txt": "<a href=\"https://github.com/neihousaigaai/short-news-viewer\">Our repo</a>"
+    },
+    {
+        "date": "20/11/2018 00:00 UTC",
+        "txt": "<a href=\"https://www.google.com\">Nothing special here</a>"
+    },
+    {
+        "date": "01/01/2018 00:00 UTC",
+        "txt": "<a href=\"https://www.google.com/doodles/new-years-day-2018\">Happy 2018!</a>"
+    },
+    {
+        "date": "31/12/2017 23:59 UTC",
+        "txt": "<a href=\"https://github.com\">a clickbait</a>"
+    }
+]

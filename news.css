@@ -1,0 +1,35 @@
+#all_news_pad {
+	width: 500px;
+	float: left;
+}
+
+#all_news_pad_content {
+	height: 500px;
+	width: 100%;
+	overflow: auto;
+	/* border: rgb(20, 20, 20) 1px solid; border-radius: 5px; */
+}
+
+#news_pad {
+	width: 200px;
+	float: right;
+}
+
+#news_pad_content {
+	height: 200px;
+	width: 100%;
+	overflow: auto;
+	/* border: rgb(20, 20, 20) 1px solid; border-radius: 5px; */
+}
+
+.news_txt, .news_txt > a {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: blue;
+	text-decoration: none;
+}
+
+.news_date {
+	font-family: sans-serif;
+	font-size: 12px;
+}
