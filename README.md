@@ -46,3 +46,7 @@ file:///your/directory/here/index.html
 <!-- define other elements here --->
 ```
 line.
+
+## New feature
+
+- [ ] Show events in news pad (events are scheduled in Google Calendar)
